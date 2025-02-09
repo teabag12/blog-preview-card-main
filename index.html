@@ -5,30 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  
+  <title>Blog preview card</title>
 </head>
 <body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<main>
+  <div>
+    <img src="./assets/images/illustration-article.svg" alt="thumbnail" class="thumbnail">
   </div>
+  <p><span class ="tag dark-gray bold">Learning</span></p>
+  <p class="dark-gray">Published 21 Dec 2023</p>
+  <h1 class="dark-gray bold"><a href=".">HTML & CSS foundations</a></h1>
+  <p class="light-gray">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  <div id="author">
+    <p class="dark-gray bold">
+      <img src="./assets/images/image-avatar.webp" alt="avatar" class="avatar">
+      Greg Hooper</p>
+  </div>
+</main>
+<footer>
+  <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/teabag12">teabag12</a>.</p>
+</footer>
 </body>
 </html>
