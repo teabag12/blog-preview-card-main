@@ -41,6 +41,7 @@ main {
     width: 22em;
     max-width: 80vw;
     box-shadow: 0.5em 0.5em;
+    border: 0.1em solid black;
     padding: 1.3em;
     border-radius: 1em;
 }
